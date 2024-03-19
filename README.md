@@ -8,6 +8,8 @@ This repo is the implementation of "[Degradation-aware Deep Unfolding Network wi
   <img src="docs/gif/ShakeNDry.gif" />  
 
   Fig1. Reconstructed Color Data via Different Algorithms
+  
+  More Testing Results [BaiduNetdisk](https://pan.baidu.com/s/1iwjYCJ_7jwggoWERXgU5GA?pwd=i768)
 </div>
 
 ## Installation
