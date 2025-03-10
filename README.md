@@ -1,12 +1,10 @@
 # DADUN for video SCI
-This repo is the implementation of "[Degradation-aware Deep Unfolding Network with Transformer Prior for Video Compressive Imaging]()". 
+This repo is the implementation of "[Degradation-aware Deep Unfolding Network with Transformer Prior for Video Compressive Imaging](https://doi.org/10.1016/j.sigpro.2024.109660)". 
 ## Abstract
- Todo. 
+In video snapshot compressive imaging (SCI) systems, video reconstruction methods are used to recover spatial?temporal-correlated video frame signals from a compressed measurement. While unfolding methods have demonstrated promising performance, they encounter two challenges: (1) They lack the ability to estimate degradation patterns and the degree of ill-posedness from video SCI, which hampers guiding and supervising the iterative learning process. (2) The prevailing reliance on 3D-CNNs in these methods limits their capacity to capture long-range dependencies. To address these concerns, this paper introduces the Degradation-Aware Deep Unfolding Network (DADUN). DADUN leverages estimated priors from compressed frames and the physical mask to guide and control each iteration. We also develop a novel Bidirectional Propagation Convolutional Recurrent Neural Network (BiP-CRNN) that simultaneously captures both intra-frame contents and inter-frame dependencies. By plugging BiP-CRNN into DADUN, we establish a novel end-to-end (E2E) and data-dependent deep unfolding method, DADUN with transformer prior (TP), for video sequence reconstruction. Experimental results on various video sequences show the effectiveness of our proposed approach, which is also robust to random masks and has wide generalization bound. 
 ## Testing Result on Simulation Dataset
 <div align="center">
-  <img src="docs/gif/Bosphorus.gif" />  
-  <img src="docs/gif/ShakeNDry.gif" />  
-
+  <img src="docs/result/DADUN_color_result.png" />    
   Fig1. Reconstructed Color Data via Different Algorithms
   
   More Testing Results [BaiduNetdisk](https://pan.baidu.com/s/1iwjYCJ_7jwggoWERXgU5GA?pwd=i768)
@@ -61,12 +59,14 @@ Results only show real data when its compress ratio (cr) equals to 10, for other
 
 ## Citation
 ```
-@article{yin2024dadun,
-  title={Degradation-aware Deep Unfolding Network with Transformer Prior for Video Compressive Imaging},
-  author={},
-  journal={},
-  year={2024},
-  publisher={}
+@article{yin2025degradation,
+  title={Degradation-aware deep unfolding network with transformer prior for video compressive imaging},
+  author={Yin, Jianfu and Wang, Nan and Hu, Binliang and Wang, Yao and Wang, Quan},
+  journal={Signal Processing},
+  volume={227},
+  pages={109660},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 ## Acknowledgement
